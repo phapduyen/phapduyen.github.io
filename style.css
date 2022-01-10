@@ -119,3 +119,8 @@ footer {
     font-size: 1.2rem;
   }
 }
+
+
+ul li {
+  margin-bottom: 2rem;
+}
