@@ -1,12 +1,12 @@
 html {
   background-color: #1C1F2B;
   color: #FFFFFA;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   font-size: 10px;
 }
 
 body {
-  font-size: 1.6rem;
+  font-size: 2rem;
 }
 
 @media (min-width: 767px) {
@@ -20,7 +20,7 @@ header {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 100px;
-  font-size: 1.4rem;
+  font-size: 2rem;
 }
 
 a {
@@ -35,7 +35,29 @@ a:hover {
 footer {
   font-size: 1rem;
 }
-/*Style for blockquote*/
+
+/* Style for book lists */
+.books {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: auto;
+}
+
+.book {
+  margin: 1em;
+}
+
+.book-thumbnail {
+  max-width: 200px;
+}
+
+.book-title {
+  text-align: center;
+}
+
+/* Style for blockquote */
 
 #ct {
   height: 150px;
@@ -113,14 +135,12 @@ footer {
   #ct p {
     font-size: 1.4rem;
     line-height: 1.8em;
+    margin-top: -40px;
   }
 
   header {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
   }
 }
 
 
-ul li {
-  margin-bottom: 2rem;
-}
