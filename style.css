@@ -116,7 +116,7 @@ footer {
 #ct p {
   font-size: 1.8rem;
   line-height: 2em;
-  margin-top: -30px;
+  margin-top: -40px;
 }
 
 @media (max-width: 450px) {
@@ -135,7 +135,6 @@ footer {
   #ct p {
     font-size: 1.4rem;
     line-height: 1.8em;
-    margin-top: -40px;
   }
 
   header {
